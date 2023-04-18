@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Meu site HTML</title>
+     </head>
+     <body style="margin: 0;">
+       <div>
+         <header style="background-color: blue; text-align: center; padding: 10px 0;font-size: 30px;" id="topo">
+           <h1>HTML <sup>Linguagem de Marcação de Hipertexto</sup></h1>
+           <h3>Tutorial para Iniciantes</h3>
+         </header>
+         <nav>
+             <ul style="list-style: none; display:flex ; justify-content: space-between; background-color: blue; padding: 10px;">
+                 <li style="flex-grow: 1;"><a href="index.html" style="color: white; text-decoration: none;">Inicio</a></li>
+                 <li style="flex-grow: 1;"><a href="index.html#html" style="color: white; text-decoration: none;">Html</a></li>
+                 <li style="flex-grow: 1;"><a href="index.html#tabela" style="color: white; text-decoration: none;">Tabela</a></li>
+                 <li style="flex-grow: 1;"><a href="index.html#sobre" style="color: white; text-decoration: none;">Sobre</a></li>
+                 <li style="flex-grow: 1;"><a href="index.html#rodape" style="color: white; text-decoration: none;">Rodape</a></li>
+                 <li style="flex-grow: 1;"><a href="Formulario.html" style="color: white; text-decoration: none;">Contato</a></li>
+             </ul>
+         </nav>
+        <form action="obrigado.html" method="get">
+            <label>Nome</label>
+            <input type="text" name="nome" required><br>
+            <label>Email</label>
+            <input type="email" name="email" required><br>
+            <label>Assunto</label>
+            <select name="assunto">
+                <option value="Aplicações para internet" selected>Aplicações para internet</option>
+                <option value="User experience e Usabilidade Web">User experience e Usabilidade Web</option>
+                <option value="Programação">Programação</option>
+                <option value="Organização e Arquitetura de computadores">Organização e Arquitetura de computadores</option>
+            </select><br>
+            <label>Mensagem</label>
+            <textarea name="mensagem" required></textarea><br>
+            <input type="checkbox" name="termo" value="Concordo com os termos" required>
+            <label>Concordo com os termos de privacidade</label><br>
+            <input type="submit" name="enviar mensagem" value="Enviar Mensagem">
+        </form>
+        </div>
+    </body>
+</html>
