@@ -1,53 +1,7 @@
 <html>
     <head>
        <title>Meu site HTML</title>
-       <style>
-        body{
-            margin: 0;
-        }
-        header{
-            background-color: blue; text-align: center; padding: 10px 0;font-size: 30px
-        }
-        #ul1{
-            list-style: none; display:flex ; justify-content: space-between; background-color: blue; padding: 10px; flex-grow: 1;
-        }
-        .listanav{
-            flex-grow: 1;
-        }
-        .anav{
-            color: white; text-decoration: none;
-        }
-        #html{
-            margin-bottom: 35px; padding: left 20px; ; padding-right: 20px; font-family: Verdana; font-size: 100%;
-        }
-        .section{
-            display: flex; margin-top: 35px; margin-bottom: 20px;
-        }
-        #tabela{
-            display:flex; color: white; width: 50%; background-color: rgb(71, 71, 184);
-        }
-        table{
-            color: #fff;border: 2px solid blueviolet;
-        }
-        #lista{
-            display:flex ; width: 50%; color: white; background-color: rgb(9, 44, 104); flex-flow: column;
-        }
-        #sobre{
-            display: flex; justify-content: flex-start; align-items: flex-start; margin-bottom: 20px;
-        }
-        .sobre{
-            width: 33.33%; height: 200px; padding: 20px;
-        }
-        #rodape{
-            padding: auto;
-        }
-        .rodape{
-            display:grid; grid-template-columns: auto auto auto auto ; align-items: flex-start; padding: auto;
-        }
-        #direitos{
-            text-align: center; margin-top: 20px ;
-        }
-       </style>
+       <link rel="stylesheet" href="estilo.css" />
     </head>
     <body>
       <div>
@@ -57,12 +11,12 @@
         </header>
         <nav>
             <ul id="ul1">
-                <li class="listanav"><a href="index.html" class="anav">Inicio</a></li>
-                <li class="listanav"><a href="index.html#html" class="anav">HTML</a></li>
-                <li class="listanav"><a href="index.html#tabela" class="anav">Tabela e Listas</a></li>
-                <li class="listanav"><a href="index.html#sobre" class="anav">Sobre CSS, HTML e JS</a></li>
-                <li class="listanav"><a href="index.html#rodape" class="anav">Links</a></li>
-                <li class="listanav"><a href="Formulario.html" class="anav">Contato</a></li>
+                <li class="listanav"><a href="index.html" >Inicio</a></li>
+                <li class="listanav"><a href="index.html#html" >HTML</a></li>
+                <li class="listanav"><a href="index.html#tabela" >Tabela e Listas</a></li>
+                <li class="listanav"><a href="index.html#sobre" >Sobre CSS, HTML e JS</a></li>
+                <li class="listanav"><a href="index.html#rodape" >Links</a></li>
+                <li class="listanav"><a href="Formulario.html" >Contato</a></li>
             </ul>
         </nav>
         <section id="html">
